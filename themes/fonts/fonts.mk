@@ -22,4 +22,5 @@ PRODUCT_PACKAGES += \
     FontMiLanProOverlay \
     FontOnePlusSansOverlay \
     FontOnePlusSlateOverlay \
+    FontOppoSansOverlay \
     FontUrbanistOverlay
