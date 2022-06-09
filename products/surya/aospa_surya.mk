@@ -5,14 +5,17 @@
 ifeq (aospa_surya, $(TARGET_PRODUCT))
 
 # Inherit from framework first
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from surya device configuration
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
 # Inherit from common AOSPA configuration
 $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
+
+# Clang
+KERNEL_CUSTOM_LLVM := true
 
 # Device identifier
 PRODUCT_NAME := aospa_surya
