@@ -86,13 +86,6 @@ PRODUCT_PACKAGES += \
     fsck.exfat \
     mkfs.exfat
 
-# Fonts
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/aospa/prebuilts/fonts/,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
-    vendor/aospa/target/config/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
-
-$(call inherit-product, external/google-fonts/lato/fonts.mk)
-
 # Game Space
 PRODUCT_PACKAGES += \
     GameSpace
@@ -279,6 +272,9 @@ PRODUCT_PACKAGES += \
     libtextclassifier_annotator_universal_model \
     libtextclassifier_actions_suggestions_universal_model \
     libtextclassifier_lang_id_model
+
+# Include Themes makefile.
+$(call inherit-product, vendor/aospa/themes/themes.mk)
 
 # WiFi
 PRODUCT_PACKAGES += \
