@@ -86,6 +86,13 @@
   <alias name="op-sans-medium" to="op-sans" weight="500" />
   <alias name="op-sans-bold" to="op-sans" weight="700" />
 
+  <family customizationType="new-named-family" name="op-slate">
+    <font weight="300" style="normal">OnePlusSlate-Light.ttf</font>
+    <font weight="400" style="normal">OnePlusSlate-Regular.ttf</font>
+  </family>
+  <alias name="op-slate-light" to="op-slate" weight="300" />
+  <alias name="op-slate-regular" to="op-slate" weight="400" />
+
   <family customizationType="new-named-family" name="urbanist">
     <font weight="500" style="normal">Urbanist-VF.ttf
         <axis tag="wght" stylevalue="500"/>
