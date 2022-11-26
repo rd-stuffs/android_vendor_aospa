@@ -19,4 +19,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FontHarmonySansOverlay \
     FontManropeOverlay \
+    FontMiLanProOverlay \
     FontUrbanistOverlay
