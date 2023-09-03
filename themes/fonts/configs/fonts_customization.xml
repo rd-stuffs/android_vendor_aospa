@@ -193,6 +193,14 @@
   </family>
   <alias name="opposans-medium" to="opposans" weight="500" />
 
+  <family customizationType="new-named-family" name="pingfang">
+    <font weight="100" style="normal">PingFangSC-Thin.ttf</font>
+    <font weight="300" style="normal">PingFangSC-Light.ttf</font>
+    <font weight="400" style="normal">PingFangSC-Regular.ttf</font>
+    <font weight="500" style="normal">PingFangSC-Medium.ttf</font>
+    <font weight="700" style="normal">PingFangSC-Semibold.ttf</font>
+  </family>
+
   <family customizationType="new-named-family" name="urbanist">
     <font weight="500" style="normal">Urbanist-VF.ttf
         <axis tag="wght" stylevalue="500"/>

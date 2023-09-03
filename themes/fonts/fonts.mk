@@ -24,4 +24,5 @@ PRODUCT_PACKAGES += \
     FontOnePlusSansOverlay \
     FontOnePlusSlateOverlay \
     FontOppoSansOverlay \
+    FontPingFangOverlay \
     FontUrbanistOverlay
