@@ -28,7 +28,7 @@ endif
 # Audio
 # Increase volume level steps
 PRODUCT_SYSTEM_PROPERTIES += \
-    ro.config.media_vol_steps=30
+    ro.config.media_vol_steps=25
 
 # Boot Animation
 $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
