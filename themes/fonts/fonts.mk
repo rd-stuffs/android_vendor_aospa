@@ -17,6 +17,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    FontGoogleSansOverlay \
     FontHarmonySansOverlay \
     FontLinotteSourceOverlay \
     FontManropeOverlay \

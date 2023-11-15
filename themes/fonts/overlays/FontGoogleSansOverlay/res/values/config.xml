@@ -1,0 +1,7 @@
+<resources>
+    <string name="config_bodyFontFamily" translatable="false">google-sans</string>
+    <string name="config_bodyFontFamilyMedium" translatable="false">google-sans-medium</string>
+    <string name="config_headlineFontFamily" translatable="false">google-sans</string>
+    <string name="config_headlineFontFamilyMedium" translatable="false">google-sans-medium</string>
+    <string name="config_clockFontFamily" translatable="false">google-sans-clock</string>
+</resources>

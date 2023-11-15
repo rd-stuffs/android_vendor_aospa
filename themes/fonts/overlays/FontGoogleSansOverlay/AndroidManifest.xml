@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.aospa.theme.font.googlesans">
+
+    <overlay
+        android:category="android.theme.customization.font"
+        android:priority="600"
+        android:targetPackage="android" />
+
+    <application
+        android:hasCode="false"
+        android:label="@string/font_googlesans_overlay">
+        <meta-data
+            android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
+            android:value="google-sans,google-sans-medium,google-sans-clock" />
+    </application>
+</manifest>
