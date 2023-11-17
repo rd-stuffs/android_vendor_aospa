@@ -38,9 +38,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Boot Animation
 $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 
-# Camera
+# Camera/Gallery
 PRODUCT_PACKAGES += \
-    GoogleCameraGo
+    GoogleCameraGo \
+    GoogleGalleryGo
 
 # Charger
 PRODUCT_SYSTEM_EXT_PROPERTIES += \

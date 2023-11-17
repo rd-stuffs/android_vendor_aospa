@@ -23,6 +23,24 @@ android_app_import {
 }
 
 android_app_import {
+    apk: "GoogleGalleryGo.apk",
+    name: "GoogleGalleryGo",
+    overrides: ["Photos", "GmsConfigOverlayPhotos"],
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+    required: [
+        "privapp-permissions-googlegallerygo.xml",
+    ],
+}
+
+android_app_import {
     apk: "Abstruct.apk",
     name: "Abstruct",
     presigned: true,
@@ -37,4 +55,11 @@ prebuilt_etc {
     src: "lily_experience.xml",
     product_specific: true,
     sub_dir: "sysconfig",
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-googlegallerygo.xml",
+    src: "privapp-permissions-googlegallerygo.xml",
+    product_specific: true,
+    sub_dir: "permissions",
 }
