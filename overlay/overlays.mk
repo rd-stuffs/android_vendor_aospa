@@ -16,7 +16,6 @@
 PRODUCT_PACKAGES += \
     AOSPABlackThemeOverlay \
     AOSPAFrameworksOverlay \
-    AOSPAImmersiveNavigationOverlay \
     AOSPALauncherOverlay \
     AOSPASettingsOverlay \
     AOSPASettingsProviderOverlay \
