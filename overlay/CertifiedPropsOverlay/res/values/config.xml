@@ -6,12 +6,12 @@
 <resources>
     <!-- Build properties from a GMS certified device against current platform SPL level -->
     <string-array name="config_certifiedBuildProperties" translatable="false">
-        <item>PRODUCT:mata</item>
-        <item>DEVICE:mata</item>
-        <item>MANUFACTURER:Essential Products</item>
-        <item>BRAND:essential</item>
-        <item>MODEL:PH-1</item>
-        <item>FINGERPRINT:essential/mata/mata:8.1.0/OPM1.180104.092/224:user/release-keys</item>
-        <item>VERSION.SECURITY_PATCH:2018-03-05</item>
+        <item>PRODUCT:foster_e_hdd</item>
+        <item>DEVICE:foster</item>
+        <item>MANUFACTURER:NVIDIA</item>
+        <item>BRAND:NVIDIA</item>
+        <item>MODEL:SHIELD Android TV</item>
+        <item>FINGERPRINT:NVIDIA/foster_e_hdd/foster:7.0/NRD90M/2427173_1038.2788:user/release-keys</item>
+        <item>VERSION.SECURITY_PATCH:2018-01-05</item>
     </string-array>
 </resources>
