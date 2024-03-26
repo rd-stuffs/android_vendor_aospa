@@ -6,12 +6,14 @@
 <resources>
     <!-- Build properties from a GMS certified device against current platform SPL level -->
     <string-array name="config_certifiedBuildProperties" translatable="false">
-        <item>PRODUCT:foster_e_hdd</item>
-        <item>DEVICE:foster</item>
-        <item>MANUFACTURER:NVIDIA</item>
-        <item>BRAND:NVIDIA</item>
-        <item>MODEL:SHIELD Android TV</item>
-        <item>FINGERPRINT:NVIDIA/foster_e_hdd/foster:7.0/NRD90M/2427173_1038.2788:user/release-keys</item>
-        <item>VERSION.SECURITY_PATCH:2018-01-05</item>
+        <item>PRODUCT:griffin_retcn</item>
+        <item>DEVICE:griffin</item>
+        <item>MANUFACTURER:motorola</item>
+        <item>BRAND:motorola</item>
+        <item>MODEL:XT1650-05</item>
+        <item>FINGERPRINT:motorola/griffin_retcn/griffin:6.0.1/MCC24.246-37/42:user/release-keys</item>
+        <item>VERSION.SECURITY_PATCH:2016-07-01</item>
+        <item>SECURITY_PATCH:2016-07-01</item>
+        <item>FIRST_API_LEVEL:null</item>
     </string-array>
 </resources>
