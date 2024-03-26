@@ -30,6 +30,12 @@
         "revision":     "topaz-855"
     },
     {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_google_pixel",
+        "target_path":  "hardware/google/pixel",
+        "revision":     "topaz"
+    },
+    {
         "remote":       "github",
         "repository":   "rd-stuffs/android_hardware_xiaomi",
         "target_path":  "hardware/xiaomi",
