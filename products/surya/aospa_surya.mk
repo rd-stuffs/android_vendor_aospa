@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 # Inherit from common AOSPA configuration
 $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 
+# LLVM
+KERNEL_CUSTOM_LLVM := true
+
 # Device identifier
 PRODUCT_NAME := aospa_surya
 PRODUCT_DEVICE := surya
