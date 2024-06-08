@@ -4,5 +4,6 @@
     <string name="config_bodyFontFamilyMedium">op-slate-regular</string>
     <string name="config_headlineFontFamily">op-slate</string>
     <string name="config_headlineFontFamilyMedium">op-slate-regular</string>
+    <string name="config_clockFontFamilyMedium">op-slate-regular</string>
 
 </resources>

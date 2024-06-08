@@ -23,5 +23,8 @@
     <!-- Name of a font family to use for headlines. If empty, falls back to platform default -->
     <string name="config_headlineFontFamily">switzer</string>
     <string name="config_headlineFontFamilyMedium">switzer-medium</string>
+
+    <!-- Name of a font family to use as clock font. For theming purpose. -->
+    <string name="config_clockFontFamilyMedium">switzer-medium</string>
 </resources>
 
