@@ -13,14 +13,6 @@
      limitations under the License.
 -->
 <compatibility-matrix version="1.0" type="framework">
-    <!-- Power -->
-    <hal format="aidl" optional="true">
-        <name>vendor.aospa.power</name>
-        <interface>
-            <name>IPowerFeature</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <!-- Powershare -->
     <hal format="aidl" optional="true">
         <name>vendor.aospa.powershare</name>
