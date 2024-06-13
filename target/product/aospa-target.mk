@@ -102,10 +102,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     GameSpace
 
-# Gestures
-PRODUCT_PACKAGES += \
-    vendor.aospa.power-service
-
 # Google - GMS, Pixel, and Mainline Modules
 $(call inherit-product, vendor/google/gms/config.mk)
 $(call inherit-product, vendor/google/pixel/config.mk)
