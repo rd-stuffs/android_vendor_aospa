@@ -141,6 +141,11 @@ PRODUCT_SYSTEM_SERVER_DEBUG_INFO := false
 # Java Optimizations
 SYSTEMUI_OPTIMIZE_JAVA := true
 
+# LMOFreeform
+PRODUCT_PACKAGES += \
+    LMOFreeform \
+    LMOFreeformSidebar
+
 # Microsoft
 $(call inherit-product, vendor/aospa/prebuilt/microsoft/packages.mk)
 
