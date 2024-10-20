@@ -150,9 +150,6 @@ SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
 FULL_SYSTEM_OPTIMIZE_JAVA := true
 
-# Microsoft
-$(call inherit-product, vendor/aospa/prebuilt/microsoft/packages.mk)
-
 # MTE
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.arm64.memtag.system_server=off
