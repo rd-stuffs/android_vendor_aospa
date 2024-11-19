@@ -48,8 +48,8 @@
         "revision":     "main"
     },
     {
-        "remote":       "github",
-        "repository":   "rd-stuffs/prebuilts_clang-standalone",
+        "remote":       "bitbucket",
+        "repository":   "rdxzv/clang-standalone",
         "target_path":  "prebuilts/clang-standalone",
         "revision":     "19",
         "clone-depth":  "1"
