@@ -562,10 +562,6 @@
         </font>
     </family>
 
-    <family customizationType="new-named-family" name="twainsixeven-clock">
-        <font>twainsixeven-ng-VF.ttf</font>
-    </family>
-
     <family customizationType="new-named-family" name="twainsixeven-bold">
         <font weight="700" style="normal">twainsixeven-ng-VF.ttf
             <axis tag="wght" stylevalue="700" />

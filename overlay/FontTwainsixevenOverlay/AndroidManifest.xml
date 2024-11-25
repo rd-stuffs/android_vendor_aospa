@@ -9,6 +9,6 @@
     <application android:label="twainsixeven">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
-            android:value="twainsixeven-text,twainsixeven-text-medium,twainsixeven-clock,twainsixeven,twainsixeven-medium" />
+            android:value="twainsixeven-text,twainsixeven-text-medium,twainsixeven,twainsixeven-medium" />
     </application>
 </manifest>
