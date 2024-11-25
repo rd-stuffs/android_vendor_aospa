@@ -99,17 +99,6 @@ PRODUCT_PACKAGES += \
     mkfs.exfat
 
 # Fonts
-PRODUCT_PACKAGES += \
-    CutiveMono.ttf \
-    DroidSansMono.ttf \
-    Roboto-Regular.ttf \
-    RobotoFallback-VF.ttf \
-    RobotoStatic-Regular.ttf \
-    NotoSerif-BoldItalic.ttf \
-    NotoSerif-Bold.ttf \
-    NotoSerif-Italic.ttf \
-    NotoSerif-Regular.ttf
-
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/aospa/fonts/,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
     vendor/aospa/target/config/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml

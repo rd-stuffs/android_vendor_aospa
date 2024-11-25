@@ -28,6 +28,7 @@ PRODUCT_PACKAGES += \
     FontGoogleSansOverlay \
     FontGeistOverlay \
     FontHarmonySansOverlay \
+    FontInterOverlay \
     FontLinotteSourceOverlay \
     FontManropeOverlay \
     FontMiLanProOverlay \
