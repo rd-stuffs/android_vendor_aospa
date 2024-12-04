@@ -27,7 +27,6 @@ PRODUCT_PACKAGES += \
     CertifiedPropsOverlay \
     FontGoogleSansOverlay \
     FontGeistOverlay \
-    FontHarmonySansOverlay \
     FontInterOverlay \
     FontLinotteSourceOverlay \
     FontManropeOverlay \
