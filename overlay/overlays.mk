@@ -36,6 +36,7 @@ PRODUCT_PACKAGES += \
     FontOppoSansOverlay \
     FontPingFangOverlay \
     FontQuicksandOverlay \
+    FontRobotoOverlay \
     FontSwitzerOverlay \
     FontTwainsixevenOverlay \
     FontUrbanistOverlay \
