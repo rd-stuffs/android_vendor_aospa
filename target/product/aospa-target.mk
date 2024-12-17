@@ -57,7 +57,6 @@ PRODUCT_PACKAGES += \
     Debloater
 
 # Dex
-PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := speed
 
 # Dex2oat
@@ -140,9 +139,7 @@ USE_DEX2OAT_DEBUG := false
 PRODUCT_SYSTEM_SERVER_DEBUG_INFO := false
 
 # Java Optimizations
-SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
-FULL_SYSTEM_OPTIMIZE_JAVA := true
 
 # Microsoft
 $(call inherit-product, vendor/aospa/prebuilt/microsoft/packages.mk)
