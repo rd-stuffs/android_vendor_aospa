@@ -53,7 +53,7 @@ else
 endif
 
 # Build Date
-ifneq ($(filter RELEASE BETA,$(AOSPA_BUILDTYPE)),)
+ifneq ($(filter ALPHA BETA STABLE,$(AOSPA_BUILDTYPE)),)
 BUILD_DATE := $(shell date -u +%Y%m%d)
 else
 BUILD_DATE := $(shell date -u '+%Y%m%d-%H%M')
