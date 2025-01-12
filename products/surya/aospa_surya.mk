@@ -25,7 +25,8 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=surya_global
+    DeviceProduct=surya \
+    SystemName=surya_global
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
